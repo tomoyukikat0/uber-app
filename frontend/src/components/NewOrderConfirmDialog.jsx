@@ -1,5 +1,6 @@
 import React from 'react';
 
+// components
 import { DialogContent, Dialog, DialogTitle } from '@material-ui/core';
 import { OrderButton } from './Buttons/OrderButton';
 
@@ -31,4 +32,4 @@ export const NewOrderConfirmDialog = ({
       </OrderButton>
     </DialogContent>
   </Dialog>
-)
+);

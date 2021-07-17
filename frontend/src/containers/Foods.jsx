@@ -84,7 +84,7 @@ export const Foods = ({
           }
         });
       })
-  }, []);
+  }, [match.params.restaurantsId]);
 
   const submitOrder = () => {
     postLineFoods({
